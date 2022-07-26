@@ -1,3 +1,16 @@
+
+(.devops) ubuntu@ip-172-31-80-65:~/operationalize-a-Machine-Learning-Microservice-API$ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+
+
+
 NAME                  READY   STATUS    RESTARTS   AGE
 projectmicroservice   1/1     Running   0          52s
 (.devops) ubuntu@ip-172-31-80-65:~/operationalize-a-Machine-Learning-Microservice-API$ ./run_kubernetes.sh
