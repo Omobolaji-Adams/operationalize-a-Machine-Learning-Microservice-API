@@ -28,6 +28,9 @@ Your project goal is to operationalize this working, machine learning microservi
 ## INSTALL DEPENDENCIES
 * Run `make install` to install 
 
+## Lint Code Using Hadolint
+ Run "make lint"
+
 ---
 
 ### Running "app.py"
@@ -55,7 +58,7 @@ Explanation of file directorys
 | Dockerfile | Docker creation files with dependencies |
 | make_predictions.sh | Call to log output predictions from the REST api end point |
 | Makefile | To install project dependcies and lint |
-| requirements.txt | Python dependencies for the project |
+| requirements.txt | dependencies for the project |
 | run_docker | shell script to build the docker file |
 | run_kuberbetes | shell script to run and start up docker image in kubernetes | 
 | upload_docker | shell script to upload locally built image to docker hub | 
