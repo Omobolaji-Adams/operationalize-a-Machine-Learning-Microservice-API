@@ -22,26 +22,26 @@ Your project goal is to operationalize this working, machine learning microservi
 ## Setup the Environment
 
 * Create a virtualenv with Python 3.7 and activate it. 
-* python3 -m venv ~/.devops
-* source .devops/bin/activate
+  python3 -m venv ~/.devops
+  source .devops/bin/activate
 
-```
-* Run `make install` to install the necessary dependencies
+## INSTALL DEPENDENCIES
+* Run `make install` to install 
 
 ---
 
-### Running `app.py`
+### Running "app.py"
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+1. Standalone: "python app.py"
+2. Run in Docker: "./run_docker.sh"
+3. Run in Kubernetes: "./run_kubernetes.sh"
 
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally 
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
-* Run via kubectl `kubectl run ml-api --image=$dockerpath `
+* Run via kubectl "kubectl run projectmicroservices --image=$dockerpath"
 
 
 Explanation of file directorys 
