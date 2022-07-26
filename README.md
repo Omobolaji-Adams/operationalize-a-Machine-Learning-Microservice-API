@@ -29,15 +29,15 @@ Your project goal is to operationalize this working, machine learning microservi
 * Run `make install` to install 
 
 ## Lint Code Using Hadolint
- Run "make lint"
+ Run `make lint` to lint code
 
 ---
 
 ### Running "app.py"
 
-1. Standalone: "python app.py"
-2. Run in Docker: "./run_docker.sh"
-3. Run in Kubernetes: "./run_kubernetes.sh"
+1. Standalone: `python app.py`
+2. Run in Docker: `./run_docker.sh`
+3. Run in Kubernetes: `./run_kubernetes.sh"
 
 ### Kubernetes Steps
 
