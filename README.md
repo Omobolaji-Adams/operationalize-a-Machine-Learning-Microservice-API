@@ -22,10 +22,13 @@ Your project goal is to operationalize this working, machine learning microservi
 ## Setup the Environment
 
 * Create a virtualenv with Python 3.7 and activate it. 
-python3 -m venv ~/.devops
-source .devops/bin/activate
+* python3 -m venv ~/.devops
+* source .devops/bin/activate
+
 ```
 * Run `make install` to install the necessary dependencies
+
+---
 
 ### Running `app.py`
 
