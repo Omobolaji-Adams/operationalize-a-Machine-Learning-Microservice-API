@@ -1,4 +1,4 @@
-<!-- [![CircleCI](https://circleci.com/gh/Omobolaji-Adams/circleci-docs/tree/master.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/tree/master) -->
+[![CircleCI](https://circleci.com/gh/Omobolaji-Adams/operationalize-a-Machine-Learning-Microservice-API/tree/master.svg?style=svg)](https://circleci.com/gh/Omobolaji-Adams/operationalize-a-Machine-Learning-Microservice-API/?branch=master)
 
 ## Project Overview
 
